@@ -57,9 +57,8 @@ function LoginPage() {
                     <Redirect>Don't have an account ? <Link href={'/signup'}>Signup</Link></Redirect>
                     <Divider sx={{fontSize:12}}>or</Divider>
                     <Button secondary
-                        type="button"
-                        onClick={() => signIn("google", { callbackUrl: '/' })}
-                    >
+                        onClick={()=>signIn("google")}
+                                            >
                         <Image src='https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png'></Image>
                         Sign In with Google
                     </Button>
