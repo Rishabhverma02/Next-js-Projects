@@ -62,6 +62,13 @@ function LoginPage() {
                         <Image src='https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png'></Image>
                         Sign In with Google
                     </Button>
+                    <Button secondary
+                        onClick={()=>signIn("facebook")}
+                                            >
+                        <Image src='https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png'></Image>
+                        Sign In with Facebook
+                    </Button>
+
                 </Form>
             </Card>
         </div>
